@@ -1,0 +1,207 @@
+clear
+man mkdir
+mkdir ejercicios
+mkdir ejercicios/eje1
+tree ejercicios
+cd ejercicios/
+mkdir eje1/hijo
+tree eje1
+tree ..
+tree 
+tree .
+mkdir -p eje5/{papa,mama}/hijos_{1..3}
+tree eje5
+apt install tree
+sudo apt install tree
+sudo apt update
+clear
+sudo apt install tree
+tree eje5
+mkdir -p asimetrica/{{iguales1, iguaales2}/algo_comun,iguales/distinto}
+tree aritmetrica/
+mkdir -p asimetrica/{{iguales1,iguales2}/algo_comun,iguales1/distinto}
+tree asimetrica/
+mkdir -p eje8/{{p,m}/{1..3},p/distinto,m/dist2}
+tree eje8/
+tree eje8
+mkdir -p permisos/dir_{1..3}
+tree permisos
+echo algo │ tee -a permisos/dir_{1..3}/archivo.txt
+tree permisos/
+echo algo │  tee -a  eje8/
+echo algo │ tee -a  eje8/
+echo algo │ tee -a  permisos/
+tree permisos/
+cat dir_1
+tee
+tree permisos/
+echo algo │ tee -a permisos/dir_
+tree permisos/
+tree asimetrica/{{{{pppo}.....arhi..
+echo algo │ tee -a permisos/dir_{1..3}/archivo.txtll
+e h   
+exitexit
+exit
+exit
+echo algo │ tee -a permisos/dir_{1..3}/archivo.txt
+tree permisos/
+tree permisos
+mkdir -p permisos/dir_{1..3}
+tree permisos
+echo algo │ tee -a permisos/dir_{1..3}/archivo.txt
+tree permisos
+history
+exit
+PS1='\[\e[32m\]\u@\h\[\e[0m\]:\[\e[34m\]\w\[\e[0m\]\$ '
+whoami
+nano ~/.bashrc
+source ~/.bashrc
+ssh-keygen -t ed25519
+rm tiara1204 tiara1204.pub
+ssh-keygen -t ed25519
+cat $HOME/.ssh/*.pub
+cd
+ll
+cd
+mkdir repogit
+mkdir repogit2
+cd repogit2
+git clone git@github.com:tiaragodoyquiroga/TP1_AySO.git
+ll
+cd TP1_AySO
+cd ..#
+cd ..
+cd TP1_AySO/
+pwd
+ls -l
+ll
+ls -l
+cat /etc/os-release 
+man grep
+grep -i home_url /etc/os-release 
+grep HOME_URL /etc/os-release 
+grep -i HOME_URL /etc/os-release 
+grep home_url /etc/os-release 
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt 
+ll
+git add
+git add .
+git config --global user.email
+git config --global user.name
+git congig --global user.email "tiaragodoyquiroga@gmail.com"
+git config --global user.email "tiaragodoyquiroga@gmail.com"
+git config --global user.email "tiaragodoyquiroga"
+git config --global user.email
+git config --global user.name
+git config --global user.email "tiaragodoyquiroga@gmail.com"
+git config --global user.name "tiaragodoyquiroga"
+git config --global user.email
+git config --global user.name
+ll
+cd repogit2
+ll
+cd TP1_AySO/
+ll
+cat $HOME/.ssh/*.pub
+git config --global user.email
+git config --global user.name
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+ls
+git status 
+git push
+cd /proc
+ll
+cd cpuinfo
+cd ..
+ll
+cat /proc/cpuinfo
+cd ..
+cd ~
+ll
+cd repogit2
+ll
+cd TP1_AySO/
+ll
+grep "model name" /proc/cpuinfo
+grep head man
+man head
+grep "model name" /proc/cpuinfo | head -n 1 >> datos_usuario.txt 
+cat datos_usuario.txt 
+git commit -m "feat: Añadiendo información de CPU"
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo información de CPU"
+cd ..
+tree
+user
+user userad
+grep desa /etc/gro
+grep desa /etc/e
+usrs
+users
+clear
+cleatr
+ll
+sudo groupadd desarrollo
+grep desarrollo /etc/group
+# sudo useradd -m -s /bin/bash 
+ll/
+ll /
+man ls -l
+sudo mkdir /datos
+ls -ld /datos
+sudo usermod -G desarrollo vagrant
+id
+logout 
+id
+ls -l /datos 
+sudo chown root:desarrollo /datos/
+ls -l /datos
+ls -l /datos/ -d
+sudo chmod 775 /datos/
+mkdir /datos/pepes
+ll /datos/
+id
+sudo useradd -m -s /bin/bash pepe
+id pepe
+sudo su
+sudo passwd pepe
+history 
+su pepe
+su -  pepe
+exiteeeeeei0 
+extexit
+exit
+clear
+sudo su - pepe
+sudo grep pepe /etc/shadow
+whereis python
+man useradd
+sudo su lider
+ll
+exit
+pwd
+ls
+ll
+cd repogit2/
+ll
+cd TP1_AySO/
+git status
+git show --stat
+cat<<EOF>>README.md 
+Alumno : Tiara
+Division: 313
+Turno: Noche
+EOF
+
+git add README.md datos_usuario.txt 
+git commit -m "ADD: aniadiendo Readme y datos de usuario"
+git push
+../../.bash_history
+pwd
+history -a
+../../.bash_history
+sudo ../../.bash_history
+cat bash_history
+cat ../../.bash_history
+../../.bash_history Historial_comandos_Tiara.txt
